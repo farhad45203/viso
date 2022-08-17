@@ -1,0 +1,86 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+    .get-call {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .fotter-top p {
+        font-size: 26px;
+    }
+
+    .main-fotter {
+        padding: 30px 0;
+    }
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    .social-bar ul {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .header-top-area {
+        text-align: center;
+    }
+    
+    .mainmenu {
+        display: none;
+    }
+
+    .mobile-hide {
+        display: none !important;
+    }
+
+    .mobile-show {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .single-slide {
+        padding: 0 15px;
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    .single-slider h2 {
+        width: auto;
+        font-size: 38px;
+    }
+    .get-call {
+        width: auto;
+    }
+    .news-area img {
+        width: 100%;
+    }
+    .main-fotter .col-md-3, .main-fotter .col-md-2, .main-fotter .col-md-4 {
+        margin-bottom: 50px;
+    }
+    
+    .main-fotter .col-md-3, .main-fotter .col-md-2 {
+        text-align: center;
+    }
+    .main-fotter img {
+        padding-bottom: 20px;
+    }
+    .main-fotter h4 {
+        padding-bottom: 20px;
+    }
+    .main-fotter {
+        padding-bottom: 0;
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
