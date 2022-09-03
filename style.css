@@ -388,20 +388,27 @@ h2{
 .news-title h2{
     padding-bottom: 50px;
 }
+.single-news {
+    margin-bottom: 15px;
+}
 .news-info{
     padding-top: 30px;
     display: inline-flex;
 }
 .news-info .col-md-3{
-    padding-left: 0;
+    padding: 0;
 }
 .news-info .col-md-9{
-    padding-left: 0;
+    padding-right: 0;
 }
 .date{
-    display: inline-block;
+    display: flex;
     background: #f5f5f5;
-    padding: 0 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
 }
 .date h5{
     margin: 0;
@@ -642,13 +649,12 @@ h2{
 .agents-area img{
     margin: 0;
     padding: 70px 44px;
-    
 }
 .agents-area img:first-child{
-    padding-left: 0;
+    padding-left: 15px;
 }
 .agents-area img:last-child{
-    padding-right: 0;
+    padding-right: 15px;
 }
 .fotter-area{
     background: #0c2034;
