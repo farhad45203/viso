@@ -31,7 +31,7 @@
 
 </head>
 
-<body>
+<body class="position-relative">
 
     <div class="header-top-area">
         <div class="container">
@@ -53,17 +53,53 @@
         </div>
     </div>
 
+    
+    <section class="mobileMenuArea">
+        <div class="container">
+            <div class="row">
+                <div class="mobileMenu">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                    </div>
+                    <div class="navBar">
+                        <span class="nav"></span>
+                        <span class="nav"></span>
+                        <span class="nav"></span>
+                    </div>
+                    <div class="navClose">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="mobileNav">
+                    <div class="navigation">
+                        <ul>
+                            <li><a class="active" href="#">Home</a></li>
+                            <li><a href="#">Insurance</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a class="Cliets" href="#agents-area">Cliets</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="search-box position-relative">
+                        <form action="" method="">
+                            <input type="text" placeholder="Enter keyword">
+                            <a class="search-icon position-absolute" href=""><i class="fa fa-search"></i></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <div class="header-area position-relative">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mobile-show">
-                    <div class="logo">
-                        <a href="index.html"><img src="assets/img/logo.png" alt""></a>
-                    </div>
-                </div>
                 <div class="col-md-4">
                     <div class="h-contact">
+                        <div>
                         <i class="fa fa-mobile"></i>
+                        </div>
                         <div class="h-contact-info">
                             <a href="mailto:Support@gmail.com">Support@gmail.com</a>
                             <p>+ 1 212-683-9756</p>
@@ -72,13 +108,15 @@
                 </div>
                 <div class="col-md-4 mobile-hide">
                     <div class="logo">
-                        <a href="index.html"><img src="assets/img/logo.png" alt""></a>
+                        <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="h-time">
+                        <div>
                         <i class="fa fa-clock-o">
                         </i>
+                        </div>
                         <div class="h-time-content">
                             <p>Mon - Sat : 8:00pm</p>
                             <p>Sunday : Closed</p>
@@ -98,7 +136,7 @@
                                 <li><a href="#">Insurance</a></li>
                                 <li><a href="#">Pages</a></li>
                                 <li><a href="#">Blog</a></li>
-                                <li><a class="Cliets" href="agents-area">Cliets</a></li>
+                                <li><a class="Cliets" href="#agents-area">Cliets</a></li>
                                 <li><a href="#">Contact</a></li>
                             </ul>
                         </div>
@@ -683,7 +721,7 @@
         </div>
     </div>
 
-    <div class="agents-area">
+    <div id="agents-area" class="agents-area">
         <div class="container">
             <div class="row">
                 <div class="agents d-flex">

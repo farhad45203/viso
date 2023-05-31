@@ -18,7 +18,13 @@
     .main-fotter {
         padding: 30px 0;
     }
- 
+    
+    .h-contact, .h-time{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
     
 }
 /* Mobile Layout: 320px. */
@@ -84,6 +90,18 @@
     
     .date {
         width: 75px;
+    }
+
+    .navigation {
+        margin-bottom: 20px;
+    }
+
+    .navigation ul li {
+        display: block;
+    }
+
+    .mobileMenuArea {
+        display: block;
     }
     
 }
